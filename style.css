@@ -1,4 +1,7 @@
-
+*{
+    margin: 0:
+    padding: 0;
+}
 body{
     color: white;
     margin: 0;
@@ -109,6 +112,6 @@ body{
     cursor: pointer;
 }
 .container button:hover{
-  color: black;
-  background: white;
+    color: black;
+    background: white;
 }
