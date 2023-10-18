@@ -1,0 +1,114 @@
+
+body{
+    color: white;
+    margin: 0;
+    padding: 0;
+    background: url(wallpaperflare.com_wallpaper\ \(2\).jpg);
+    background-position: center;
+    font-family: 'Baloo 2', cursive;
+}
+.left{
+    position: absolute;
+    left: 67px;
+    top: 8px;
+    display: inline-block;
+    /* border: 2px solid red; */
+}
+.left div{
+    text-align: center;
+    line-height: 17px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.left img{
+    width: 55px;
+    margin: 0 0 0 28px;
+}
+.mid{
+    display: block;
+    width: 50%;
+    margin: 5px auto;
+    /* border: 2px solid blue;  */
+}
+.navbar{
+    display: inline-block;
+    margin-left: 202px;
+}
+.navbar li{
+    display: inline-block;
+    list-style: none;
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 9px 32px;
+    margin-left: -27px;
+}
+.navbar li a:hover, .navbar li a.active{
+    color: rgb(228, 173, 173);
+    text-decoration: underline;
+}
+.right{
+    position: absolute;
+    right: 59px;
+    top: 14px;
+    display: inline-block;
+    /* border: 2px solid yellow; */
+}
+.btns{
+    margin: 3px 6px;
+    padding: 4px 14px;
+    border: 2px solid rgb(172, 170, 170);
+    border-radius: 7px;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    font-weight: bold;
+    font-family: 'Baloo 2', cursive;
+}
+.btns:hover{
+    background-color: blueviolet;
+    color: black;
+}
+.container{
+    background-color: black;
+    border: 2px solid green;
+    height: 60vh;
+    margin: 61px 65px;
+    padding: 39px;
+    border: 2px solid white;
+    border-radius: 25px;
+    width: 33%;
+}
+.form-group input{
+    text-align: center;
+    display: block;
+    width: 355px;
+    padding: 6px;
+    margin: 7px auto;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-family: 'Baloo 2', cursive;
+    font-weight: bold;
+}
+.container h1{
+    text-align: center;
+    margin: 0;
+}
+.container button{
+    color: white;
+    background-color: black;
+    display: block;
+    width: 84%;
+    height: 37px;
+    margin: 19px auto;
+    border-radius: 10px;
+    border: 2px solid rgb(184, 184, 184);
+    font-weight: bold;
+    font-family: 'Baloo 2', cursive;
+    cursor: pointer;
+}
+.container button:hover{
+  color: black;
+  background: white;
+}
